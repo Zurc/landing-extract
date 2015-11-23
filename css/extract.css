@@ -1,0 +1,288 @@
+.container {
+	width: 70%;
+}
+
+@media screen and (min-width: 1024px) {
+
+	.container {
+		width: 960px;
+	}
+}
+
+.center {
+	text-align: center;
+	vertical-align: middle;
+}
+
+p {
+	padding: 15px 0;
+}
+
+button {
+	padding-top: 10px;
+}
+
+.success, .fail, .noCity {
+	padding: 10px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	margin-top: 20px;
+	display: none;
+}
+
+.bold {
+	font-weight: bolder;
+}
+
+.marginTop {
+	margin-top: 1em;
+}
+
+.marginBottom{
+	margin-bottom: 1em;
+}
+
+.bigPadTop {
+	padding-top: 200px;
+}
+
+.box {
+	background: rgba(255,255,255,.8);
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+
+/*---------- header ----------*/
+
+
+.header .navbar{
+	background-color: rgba(255, 255, 255, .8);
+	margin: 0;
+	border: none;
+	-webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    height: 90px;
+    vertical-align: middle;
+    box-shadow: 0 1px 3px lightgray;
+}
+
+.header .navbar ul li a {
+	color: #333;
+	background: transparent;
+	text-transform: uppercase;
+}
+
+.header .navbar ul li a:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	border-bottom: 1px solid #991b1e;
+	-webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.header .navbar ul li a:hover:after {
+	width: 100%;
+}
+
+.header .navbar ul li.active a, 
+.header .navbar ul li.active a:hover,
+.header .navbar ul li.active a:focus  {
+	//color: #ee2f1b;
+	color: #991b1e;
+	background: transparent;
+}
+
+.logo{
+	float: left;
+	width: 150px;
+}
+
+.menu {
+	padding: 1.5em 0;
+}
+
+
+/*---------- banner ----------*/
+
+
+.banner {
+	background-image: url(../images/banner.jpeg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.banner h1 {
+	font-size: 3em;
+	color: white;
+	text-transform: uppercase;
+}
+
+.banner .lead {
+	color: white;
+}
+
+.banner span{
+	width:15%;
+	height:1px;
+	background:#991b1e;
+	display:inline-block;
+	margin: 3em 0;
+}
+
+
+
+
+/*---------- benefits ----------*/
+
+
+.benefits {
+	background: #f5f5f5 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAKCAYAAACT+/8OAAAAG0lEQVQIW2NkYGBg2Ldvn7GTk9NZEJtxsAoAAF4cKAtPUjwVAAAAAElFTkSuQmCC) repeat;	
+}
+
+.benefits-grids {
+	padding: 3em 0;
+}
+
+.benefits-head h2 {
+	font-weight:900;
+	font-size:2.6em;
+	color:#222222;
+	text-transform:uppercase;
+}
+
+.benefits-head span{
+	width:15%;
+	height:1px;
+	background:#991b1e;
+	display:inline-block;
+	margin: 3em 0;
+}
+
+.benefits-grid span{
+	width:64px;
+	height:64px;
+	display:inline-block;
+}
+.benefits-grid h3 a{
+	color: #222;
+	font-weight: 600;
+	font-size: 0.875em;
+	text-transform: uppercase;
+}
+.benefits-grid h3 a:hover{
+	color:#777777;
+	text-decoration: none;
+}
+.benefits-grid p{
+	font-weight:400;
+	font-family: 'Open Sans', sans-serif;
+	line-height:1.7em;
+	color:#888888;
+}
+.benefits-icon i{
+	color: lightgray;
+	font-size: 3em;
+}
+
+
+/*---- automate ----*/
+
+
+.automate {
+	background: #f5f5f5;
+	overflow: hidden;
+}
+
+.automate-left {
+	padding: 3em 3em 3em 5em;
+}
+
+.automate.bigPadTop {
+	padding-top: 150px;
+}
+
+.automate-left h3{
+	font-weight: 900;
+	font-size: 2.5em;
+	color: #222222;
+	text-transform: uppercase;
+	margin: 0.3em 0 0.6em;
+}
+.automate-left p{
+	font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.7em;
+	color: #777777;
+}
+
+.automate-item h5{
+	text-transform:uppercase;
+	color:#222222;
+	font-size:1.3em;
+	margin:0;
+	padding:0 0 0.5em 0;
+}
+.automate-item p{
+	width:80%;
+}
+
+.automate-item .icon {
+	color: #777;
+    font-size: 2em;
+}
+
+
+.automate-right{
+	min-height:781px;
+	background:url(../images/automate-right.png) no-repeat 0px 0px;
+	background-size:cover;
+	border: 1px solid lightgrey;
+    box-shadow: 1px 1px 3px rgba(0,0,0, .4);
+}
+
+
+
+
+/*---------- signIn ----------*/
+
+.signIn {
+	background-image: url(../images/signIn.jpeg);
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+}
+
+.signIn h1 {
+	font-size: 3em;
+	color: white;
+	text-transform: uppercase;
+}
+
+.signIn span{
+	width:15%;
+	height:1px;
+	background:#991b1e;
+	display:inline-block;
+	margin: 3em 0;
+}
+
+.signIn .checkbox {
+	margin-bottom: 1em;
+}
