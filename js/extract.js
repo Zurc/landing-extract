@@ -29,4 +29,13 @@ $(document).ready(function() {
       }
     }
   });
+
+  $('.logo').click(function() {
+    $('html,body').animate({
+      scrollTop: 0
+    }, 1000);
+    menu.children().removeClass('active');
+    menu.children().first().addClass('active');
+    return false;
+  });
 });
