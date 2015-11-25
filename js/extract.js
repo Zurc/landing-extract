@@ -2,10 +2,10 @@ $(document).ready(function() {
 
 	var menu = $('.menu ul');
 
-	$(".banner, .benefits, .automate, .signIn").css("min-height", $(window).height());
+	$(".banner, .benefits, .automate, .register").css("min-height", $(window).height());
 
 	if ($(window).height() < 850) {
-		$('.banner, .benefits, .signIn').css('paddingTop', '150px');
+		$('.banner, .benefits, .register').css('paddingTop', '150px');
 		$('.automate').css('paddingTop', '100px');
 	}
 

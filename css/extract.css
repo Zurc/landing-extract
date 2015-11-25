@@ -195,11 +195,13 @@ button {
 .banner h1 {
 	font-size: 3.2em;
 	color: white;
-	text-transform: uppercase;
+	//text-transform: uppercase;
+	text-shadow: 1px 1px 2px #000;
 }
 
 .banner .lead {
 	color: white;
+	text-shadow: 1px 1px 2px #000;
 }
 
 .banner span{
@@ -330,22 +332,22 @@ button {
 
 
 
-/*---------- signIn ----------*/
+/*---------- register ----------*/
 
-.signIn {
+.register {
 	background-image: url(../images/signIn.jpeg);
 	background-size: cover;
 	background-position: center;
 	width: 100%;
 }
 
-.signIn h1 {
+.register h1 {
 	font-size: 3em;
 	color: white;
 	text-transform: uppercase;
 }
 
-.signIn span{
+.register span{
 	width:15%;
 	height:1px;
 	background:#991b1e;
@@ -353,6 +355,6 @@ button {
 	margin: 3em 0;
 }
 
-.signIn .checkbox {
+.register .checkbox {
 	margin-bottom: 1em;
 }
