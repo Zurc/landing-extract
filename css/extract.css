@@ -21,7 +21,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.container {
 		width: 100%;
 		margin: 1em auto;
@@ -136,7 +136,7 @@ button {
 	padding: 1.5em 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 	.menu {
 		padding: 0;
 	}
@@ -277,7 +277,7 @@ button {
 }
 
 .automate-left {
-	padding: 3em 3em 3em 5em;
+	padding: 0 3em 3em 5em;
 }
 
 .automate.bigPadTop {
@@ -291,7 +291,7 @@ button {
 	text-transform: uppercase;
 	margin: 0.3em 0 0.6em;
 }
-.automate-left p{
+.automate-left p, .automate-left li {
 	font-weight: 400;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 1.7em;
@@ -307,6 +307,16 @@ button {
 }
 .automate-item p{
 	width:80%;
+}
+
+.automate-left ul {
+	padding-left: 15px;
+	margin-top: -1em;
+	margin-bottom: 2em;
+}
+
+.automate-left li {
+	list-style: none;
 }
 
 .automate-item .icon {
