@@ -9,12 +9,10 @@ $(document).ready(function() {
 		$('.automate').css('paddingTop', '100px');
 	}
 
-  $(document).ready(function () {
-    $(".navbar-nav li a").click(function(event) {
-      $(".navbar-collapse").collapse('hide');
-    });
+  $(".navbar-nav li a").click(function() {
+    $(".navbar-collapse").collapse('hide');
   });
-
+  
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
